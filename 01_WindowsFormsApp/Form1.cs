@@ -14,7 +14,12 @@ namespace _01_WindowsFormsApp
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); // call
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
